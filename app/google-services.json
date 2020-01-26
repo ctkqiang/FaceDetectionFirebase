@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "158881061088",
+    "firebase_url": "https://facialrecognition-bf27d.firebaseio.com",
+    "project_id": "facialrecognition-bf27d",
+    "storage_bucket": "facialrecognition-bf27d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158881061088:android:b4a1c9decfe0a039319885",
+        "android_client_info": {
+          "package_name": "com.johnmelodyme.facialrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158881061088-25202ihb7r2ho9ha537kmut2c1avtgpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS9FJ3ELSw_ycP_UPNyp-kTiJpq1QKq4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158881061088-25202ihb7r2ho9ha537kmut2c1avtgpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158881061088:android:2ec57173ef4f639a319885",
+        "android_client_info": {
+          "package_name": "com.johnmelodyme.firebasefacialrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158881061088-eq5akqsqjusiheievivq2v16hfepa1af.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johnmelodyme.firebasefacialrecognition",
+            "certificate_hash": "a44f0a8394a2c488158030a8f9c2efac2245dbb4"
+          }
+        },
+        {
+          "client_id": "158881061088-25202ihb7r2ho9ha537kmut2c1avtgpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS9FJ3ELSw_ycP_UPNyp-kTiJpq1QKq4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158881061088-25202ihb7r2ho9ha537kmut2c1avtgpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
