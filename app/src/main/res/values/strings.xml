@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Firebase Facial Recognition</string>
+    <string name="detect">DETECT {} </string>
 </resources>

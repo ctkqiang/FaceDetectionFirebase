@@ -33,8 +33,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:17.2.2'
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
     //CAMERA KIT :
-    implementation 'com.camerakit:camerakit:1.0.0-beta3.11'
-    implementation 'com.camerakit:jpegkit:0.1.0'
+    //implementation 'com.camerakit:camerakit:1.0.0-beta3.11'
+    //implementation 'com.camerakit:jpegkit:0.1.0'
+    implementation 'com.wonderkiln:camerakit:0.13.1'
     // Dialogue:
     implementation 'com.github.d-max:spots-dialog:1.1@aar'
 }
