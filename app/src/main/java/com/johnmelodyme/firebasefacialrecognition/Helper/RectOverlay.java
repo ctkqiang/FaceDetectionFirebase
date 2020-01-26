@@ -13,7 +13,7 @@ import android.graphics.RectF;
  */
 
 public class RectOverlay extends GraphicOverlay.Graphic {
-    private int Rect_colour = Color.Green;
+    private int Rect_colour = Color.GREEN;
     private float Stroke_width = 0x1.0p2f;
     private Paint Rect_paint;
     private GraphicOverlay graphicOverlay;
