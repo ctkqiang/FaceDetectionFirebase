@@ -1,4 +1,4 @@
-package com.johnmelodyme.firebasefacialrecognition;
+package com.johnmelodyme.firebasefacialrecognition.Helper;
 
 /*
  * Copyright (C) The Android Open Source Project
