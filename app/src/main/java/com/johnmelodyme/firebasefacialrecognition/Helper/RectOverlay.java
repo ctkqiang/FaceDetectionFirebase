@@ -38,8 +38,8 @@ public class RectOverlay extends GraphicOverlay.Graphic {
         RectF rectF = new RectF(mRect);
         rectF.left = translateX(rectF.left);
         rectF.right = translateX(rectF.right);
-        rectF.top = translateX(rectF.top);
-        rectF.bottom = translateX(rectF.bottom);
+        rectF.top = translateY(rectF.top);
+        rectF.bottom = translateY(rectF.bottom);
 
         canvas.drawRect(rectF, Rect_paint);
     }
