@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sourcecode"
+        android:icon="@drawable/source_code"
+        android:title="@string/Source_code"
+        app:showAsAction="withText"/>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="@string/about"
+        app:showAsAction="withText"/>
+</menu>

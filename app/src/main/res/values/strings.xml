@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Firebase Facial Recognition</string>
     <string name="detect">DETECT {} </string>
+    <string name="Source_code">Source Code</string>
+    <string name="about">About</string>
+    <string name="url">https://github.com/johnmelodyme/FaceDetectionFirebase/tree/master/app/src/main/java/com/johnmelodyme/firebasefacialrecognition</string>
+    <string name="about_me">https://johnmelodyme.github.io/</string>
+
 </resources>

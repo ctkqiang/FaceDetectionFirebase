@@ -2,17 +2,19 @@ package com.johnmelodyme.firebasefacialrecognition;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.ml.vision.FirebaseVision;
@@ -28,9 +30,7 @@ import com.wonderkiln.camerakit.CameraKitEventListener;
 import com.wonderkiln.camerakit.CameraKitImage;
 import com.wonderkiln.camerakit.CameraKitVideo;
 import com.wonderkiln.camerakit.CameraView;
-
 import java.util.List;
-
 import dmax.dialog.SpotsDialog;
 
 /**
@@ -162,5 +162,35 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(Here, string,
                 Toast.LENGTH_SHORT)
                 .show();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+        if (id == R.id.sourcecode) {
+            String URL;
+            URL = getResources().getString(R.string.url);
+            Intent SOURCE_CODE;
+            SOURCE_CODE = new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
+            startActivity(SOURCE_CODE);
+            Log.w(TAG, "Firebase Face Detector" + "SOURCE_CODE ======> {REQUESTED:GITHUB --> OK}");
+            return true;
+        }
+        if (id == R.id.about){
+            String ABOUT;
+            ABOUT = getResources().getString(R.string.about_me);
+            Intent ABOUT_ME;
+            ABOUT_ME = new Intent(Intent.ACTION_VIEW, Uri.parse(ABOUT));
+            startActivity(ABOUT_ME);
+            Log.w(TAG, "Firebase Face Detector" + "ABOUT ======> {REQUESTED:JOHN_MELODY_MELISSA||SIN_DEE --> OK}");
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
