@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Firebase Facial Recognition</string>
+    <string name="app_name">Simple Firebase Face Detection</string>
     <string name="detect">DETECT {} </string>
     <string name="Source_code">Source Code</string>
     <string name="about">About</string>
